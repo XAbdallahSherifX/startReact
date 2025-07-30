@@ -1,4 +1,4 @@
-body {
+html {
   overflow-x: hidden;
 }
 .bg-darkblue {
@@ -123,4 +123,7 @@ h2 {
   .my-container {
     width: 50%;
   }
+}
+.row {
+  margin: 0;
 }
