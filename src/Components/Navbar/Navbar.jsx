@@ -20,8 +20,8 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item ms-4">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex column-gap-4">
+              <li className="nav-item">
                 <a
                   className="btn btn-outline-light w-100 fs-4 mt-4 mt-lg-0"
                   aria-current="page"
@@ -30,12 +30,12 @@ export default function Navbar() {
                   Portfolio
                 </a>
               </li>
-              <li className="nav-item ms-4">
+              <li className="nav-item">
                 <a className="btn btn-outline-light w-100 fs-4 mt-4 mt-lg-0" href="#about">
                   About
                 </a>
               </li>
-              <li className="nav-item ms-4">
+              <li className="nav-item">
                 <a className="btn btn-outline-light w-100 fs-4 mt-4 mt-lg-0" href="#contact">
                   Contact
                 </a>
